@@ -1,2 +1,35 @@
-package Modul1;public class Mahasiswa {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
+ */
+package Modul1;
+
+import java.awt.BorderLayout;
+
+/**
+ *
+ * @author arkan
+ */
+class Mahasiswa {
+
+    private long nim;
+    private String nama;
+    private String asal;
+
+    public Mahasiswa(long nim, String nama, String asal) {
+        this.nim = nim;
+        this.nama = nama;
+        this.asal = asal;
+    }
+
+    public void displayMhs() {
+
+        System.out.print("\tNIM: " + nim);
+        System.out.print(", Nama: " + nama);
+        System.out.println(", Asal: " + asal);
+    }
+
+    public long getNim() {
+        return nim;
+    }
 }

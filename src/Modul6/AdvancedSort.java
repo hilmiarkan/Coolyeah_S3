@@ -23,7 +23,7 @@ public class AdvancedSort {
 
     //--------------------------------------------------------------------------
 
-    // untuk membandingakn data yang dibagi 2
+    // untuk membandingkan data yang dibagi 2
     public void merge(Mahasiswa[] workspace, int lowindex, int highindex, int upperBound) {
         int j = 0;
         int lowerBound = lowindex;
