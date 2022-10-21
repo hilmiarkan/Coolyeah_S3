@@ -21,7 +21,7 @@ public class AdvancedSort {
         nElemen++;
     }
 
-    //--------------------------------------------------------------------------
+    //---------------------------------MERGE SORT-----------------------------------------
 
     // untuk membandingkan data yang dibagi 2
     public void merge(Mahasiswa[] workspace, int lowindex, int highindex, int upperBound) {
@@ -31,7 +31,11 @@ public class AdvancedSort {
         int nItem = upperBound - lowerBound + 1;
 
         while (lowindex <= mid && highindex <= upperBound) {
-            if (mhs[lowindex].getNama().compareTo(mhs[highindex].getNama()) < 0) {
+//          BERDASARKAN NIM
+          if (mhs[lowindex].getNim() <= mhs[highindex].getNim()) {
+//          BERDASARKAN NAMA
+//            if (mhs[lowindex].getNama().compareTo(mhs[highindex].getNama()) < 0) {
+
                 workspace[j++] = mhs[lowindex++];
             } else {
                 workspace[j++] = mhs[highindex++];
@@ -60,15 +64,15 @@ public class AdvancedSort {
     }
 
     public void MergeSort() {
-        System.out.println("Merge Sort berdasarkan nama");
+        System.out.println("Merge Sort berdasarkan NIM");
         Mahasiswa[] workspace = new Mahasiswa[nElemen];
         recMergeSort(workspace, 0, nElemen - 1);
     }
 
-    //--------------------------------------------------------------------------
+    //------------------------------------SHELL SORT--------------------------------------
 
     public void ShellSort() {
-        System.out.println("Shell Sort berdasarkan NIM");
+        System.out.println("Shell Sort berdasarkan Nama");
         int in, out;
         Mahasiswa temp;
         int h = nElemen / 2;
@@ -77,8 +81,10 @@ public class AdvancedSort {
             for (out = h; out < nElemen; out++) {
                 temp = mhs[out];
                 in = out;
-
-                while (in > h - 1 && mhs[in - h].getNim() >= temp.getNim()) {
+//              BERDASARKAN NAMA
+              while (in > h - 1 && mhs[in - h].getNama().compareTo(temp.getNama()) > 0) {
+//              BERDASARKAN NIM
+//                while (in > h - 1 && mhs[in - h].getNim() >= temp.getNim()) {
                     mhs[in] = mhs[in - h];
                     in -= h;
                 }
@@ -88,7 +94,7 @@ public class AdvancedSort {
         }
     }
 
-    //--------------------------------------------------------------------------
+    //----------------------------------QUICK SORT----------------------------------------
 
     public void swap(int one, int two) {
         Mahasiswa temp;
@@ -101,8 +107,12 @@ public class AdvancedSort {
         int indexKiri = batasKiri - 1;
         int indexKanan = batasKanan;
         while (true) {
-            while (indexKiri < batasKanan && mhs[++indexKiri].getNama().compareToIgnoreCase(pivot.getNama()) < 0);
-            while (indexKanan > batasKiri && mhs[--indexKanan].getNama().compareToIgnoreCase(pivot.getNama()) > 0);
+//            BERDASARKAN NIM
+            while (indexKiri < batasKanan && mhs[++indexKiri].getNim() <= pivot.getNim());
+            while (indexKanan > batasKiri && mhs[--indexKanan].getNim() >= pivot.getNim());
+//            BERDASARKAN NAMA
+//            while (indexKiri < batasKanan && mhs[++indexKiri].getNama().compareToIgnoreCase(pivot.getNama()) < 0);
+//            while (indexKanan > batasKiri && mhs[--indexKanan].getNama().compareToIgnoreCase(pivot.getNama()) > 0);
             if (indexKiri >= indexKanan) {
                 break;
             } else {
@@ -126,39 +136,9 @@ public class AdvancedSort {
     }
 
     public void QuickSort() {
-        System.out.println("Quick Sort berdasarkan Nama");
+        System.out.println("Quick Sort berdasarkan NIM");
         recQuickSort(0, nElemen - 1);
     }
 
     //--------------------------------------------------------------------------
-}
-
-class AdvancedSortApp {
-
-    public static void main(String[] args) {
-        int max = 100;
-        AdvancedSort arr;
-        arr = new AdvancedSort(max);
-
-        arr.insert(16650210, "Jundi", "Malang");
-        arr.insert(16650200, "Ahmad", "Sidoarjo");
-        arr.insert(16650240, "Ismail", "Banyuwangi");
-        arr.insert(16650230, "Sofi", "Semarang");
-        arr.insert(16650220, "Dinda", "Bandung");
-        arr.insert(16650280, "Rais", "Ambon");
-        arr.insert(16650270, "Halo", "Surabaya");
-        arr.insert(16650250, "Nunung", "Ponorogo");
-        arr.insert(16650260, "Yati", "Bali");
-
-        System.out.println("Sebelum Data diurut ");
-        arr.displayArray();
-
-        arr.MergeSort();
-        arr.displayArray();
-        arr.ShellSort();
-        arr.displayArray();
-        arr.QuickSort();
-        arr.displayArray();
-    }
-
 }

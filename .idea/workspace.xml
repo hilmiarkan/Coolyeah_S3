@@ -4,42 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55fd733-b540-4d66-aa62-1c201efc2494" name="Changes" comment="">
+    <list default="true" id="b55fd733-b540-4d66-aa62-1c201efc2494" name="Changes" comment="ngganti">
+      <change afterPath="$PROJECT_DIR$/src/Modul6/AdvancedSortApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/DataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/DataArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/DataArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/DataArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/HighArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/HighArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/HighArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/HighArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/Mahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul1/classArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul1/classArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/DataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/DataArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/DataArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/DataArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/HighArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/HighArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/HighArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/HighArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/Mahasiswa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul2/classArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul2/classArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/Antrian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/Antrian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/AntrianApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/AntrianApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/QueueApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/QueueApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/StackApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/StackApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/StackReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/StackReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/StackReverseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/StackReverseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul3/StackReverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul3/StackReverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/DoublyLinkedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/DoublyLinkedListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/LinkedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/LinkedListApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/QueueImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/QueueImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul4/StackImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul4/StackImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul5/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul5/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul5/ArraysApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul5/ArraysApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul5/faktorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul5/faktorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul5/nilai_pangkat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul5/nilai_pangkat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modul6/AdvancedSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul6/AdvancedSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modul6/Mahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modul6/Mahasiswa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +44,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18"
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,6 +57,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666315000853</updated>
     </task>
+    <task id="LOCAL-00001" summary="ngganti">
+      <created>1666316448197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666316448197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,5 +80,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="ngganti" />
+    <option name="LAST_COMMIT_MESSAGE" value="ngganti" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
