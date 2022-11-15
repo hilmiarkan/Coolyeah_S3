@@ -64,29 +64,29 @@ public class NilaiMahasiswa {
 
         }
         a = ewe;
-        int out=x-1, in, _out=0;
+        int tail=x-1, head, _tail=0;
 
         boolean isSwap = true;
 
         while(isSwap) {
             isSwap = false;
 
-            for(in=_out; in<out; in++) {
-                if( a[in] > a[in+1] ) {
-                    swap(in, in+1);
+            for(head=tail; head<tail; head++) {
+                if( a[head] > a[head+1] ) {
+                    swap(head, head+1);
                     isSwap=true;
                 }
             }
 
-            for(in=out-1; in>_out; in--) {
-                if(a[in] < a[in-1]) {
-                    swap(in, in-1);
+            for(head=tail-1; head>tail; head--) {
+                if(a[head] < a[head-1]) {
+                    swap(head, head-1);
                     isSwap=true;
                 }
             }
 
-            _out++;
-            out--;
+            _tail++;
+            tail--;
         }
 //        for(int i = 0; i < a.length; i++) {
 //            System.out.print(a[i] + " ");

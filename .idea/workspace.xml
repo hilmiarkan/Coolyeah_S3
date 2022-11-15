@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55fd733-b540-4d66-aa62-1c201efc2494" name="Changes" comment="ngganti">
-      <change afterPath="$PROJECT_DIR$/src/UTS_Exercise/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul7/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul7/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul7/TreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/HashTableApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/SortedLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/HashTableApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/HashTableApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul9/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul9/HeapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul9/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +61,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/arkan/Stash/Idea Project/J_210605110101&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Modul8/Nyoba" />
+      <recent name="$PROJECT_DIR$/src/Modul8/HashTables_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Modul9" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Modul7" />
       <recent name="UTS_Exercise" />
     </key>
   </component>
@@ -77,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666321275228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ngganti">
+      <created>1666545287931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666545287931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
