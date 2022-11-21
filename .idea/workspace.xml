@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b55fd733-b540-4d66-aa62-1c201efc2494" name="Changes" comment="ngganti">
-      <change afterPath="$PROJECT_DIR$/src/Modul7/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul7/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul7/TreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/HashTableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables/SortedLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/HashTables_2/HashTableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul8/Nyoba/HashTableApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul9/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul9/HeapApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modul9/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10/GraphApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10_Praktikum/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10_Praktikum/GraphApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modul10_Praktikum/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UTS_Exercise/NilaiMahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +69,26 @@
       <recent name="UTS_Exercise" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="GraphApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul10_Praktikum.GraphApp" />
+      <module name="J_210605110101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Modul10_Praktikum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GraphApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -108,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666545287931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ngganti">
+      <created>1668475114625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668475114625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
